@@ -1,35 +1,39 @@
-.Header{
+.face{
+    justify-content: center;
+    height: 450px;
     background-color: rgb(255, 192, 23);
-}
-.Nav{
     border-bottom: 1px solid rgb(36, 36, 36);
-    height: 75px;
-    font-size: 95%;
-    vertical-align: middle;
-    background-color: inherit;
-
+    box-sizing: inherit;
+}
+.left-face{
+    width: 550px;
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+}
+.right-face{
+    width: 642px;
+    display: inline-block;
+}
+.left-face h2{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-feature-settings: "pnum" 1, "lnum" 1;
+    font-size: 106px;
+    line-height: 95px;
+    letter-spacing: -0.05em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    margin-top: 92px;
+}
+.left-face span{
+    width: 80%;
 }
 .b{
     font-weight: 400;
-    padding-right: 30px;
-    margin-top: -10px;
 }
-.btn-dark{
-    height: 40px;
-    width: 95px;
-    background-color: black;
-    color: antiquewhite;
-    border-radius: 20px;
-    border-style: none;
-    position: absolute;
-    top: 18px;
-    right:25px;
-    font-size: 100%;
-}
-
-.logo img{
-    margin-left: -40px;
-    margin-top: -5px;
-    height: 60px;
-    width: 180px;
+.cw h3{
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
 }

@@ -1,0 +1,31 @@
+.Nav {
+    background-color:  rgb(255, 192, 23);
+    border-bottom: 1px solid rgb(36, 36, 36);
+    height: 75px;
+    font-size: 95%;
+    vertical-align: middle;
+    transition: background-color 0.3s ease-in;
+}
+.pad{
+    align-items: center;
+    color: rgb(0,0,0) !important;
+    margin-right: -80px;
+}
+
+.white{
+    background-color: antiquewhite !important;
+}
+.green{
+    background-color: green !important;
+}
+
+.pad{
+    padding-right: 60px;
+}
+
+.logo img{
+    margin-left: -70px;
+    margin-top: -5px;
+    height: 165px;
+    width: 230px;
+}
