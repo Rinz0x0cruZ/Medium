@@ -1,5 +1,84 @@
-.trending{
-    height: 800px;
+.bod{
     background-color: antiquewhite;
-    box-sizing: border-box;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    border-top: medium;
+    justify-content: center;
+    font-weight: 400;
+}
+.trending{
+    margin: 0px 64px;
+    min-width:0px;
+    max-width: 1192px;
+    width:100%;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+.top-strip-trend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:16px;
+}
+.top-strip-trend h2{
+    color: rgb(36,36,36);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.top-strip-trend img{
+    height: 30px;
+    width: 20px;
+    margin-right: 20px;
+}
+.trend-post{
+    margin: 0px -16px;
+    width: calc(100% + 32px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.trend-card{
+    max-width: 33.3333%;
+    flex-grow: 0px;
+    padding: 0px 16px;
+    flex-basis: 33.3333%;
+    font-weight:400;
+    text-align: left;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.tui , .tcc{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -10px;
+}
+
+.tpp{
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+}
+.tu , .tcon{
+    padding: 0px 8px;
+    font-size: 88%;
+    font-weight: 400;
+}
+.tct{
+    font-size: larger;
+}
+.tcd,.tr{
+    padding-right: 8px;
+    font-size: small;
+}
+.tcc img{
+    margin-top: 6px;
+    height: 10px;
+    width: 10px;
 }

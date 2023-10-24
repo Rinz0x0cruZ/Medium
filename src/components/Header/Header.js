@@ -10,9 +10,11 @@ const Header = () => {
             <span className='cw'>
                 <h3>Discover stories, thinking, and expertise from writers on any topic.</h3>
             </span>
-            <button>Start reading</button>
+            <button className='btn-dark-h'>Start reading</button>
       </div>
-      <div className='right-face'></div>
+      <div className='right-face'>
+        
+      </div>
     </div>
   );
 };
